@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Yanone+Kaffeesatz&display=swap');
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family:'Open sans', Arial, Helvetica, sans-serif;
+	background-color: #222f3e;
+}	
+
+header{
+	height: 60vh;
+	background-image: url('images/grillenbreit-campus.jpg');
+	background-position: center;
+	color: #fff;
+	text-align: center;
+
+
+
+
+}
+
+header nav{
+	display:flex;
+	flex-wrap:wrap;
+	padding: 10px;
+
+}
+
+header nav a{
+	color: #bababa;
+	text-decoration: none;
+	margin-right: 5px;
+	
+
+}
+
+header nav a:hover{
+	color:#fff;
+	border-bottom: 1px solid #919191;
+}
+header .principal{
+	margin-top: 30px;
+}
+header .principal h2{
+	position:relative;
+	top: 80px;
+}
+header .principal h2{
+	margin-top:-20px;
+	padding:20px;
+}
+
+.premieres-presentations{
+	background-color:#222f3e;
+	color: #fff;
+	padding:30px;
+	display: flex;
+	flex-wrap:wrap;
+
+}
+
+.premieres-presentations .gauche{
+
+	width:60%;
+	margin-right: 40px;
+	margin-right:10px;
+
+
+}
+.premieres-presentations .droite img{
+	display:block;
+	border-radius:2%;
+	
+
+}
+
+.lycee{
+	background-color:#222f3e;
+	color: #fff;
+	padding:30px;
+	display: flex;
+	flex-wrap:wrap;
+
+}
+
+.lycee .left img{
+
+	display:block;
+	border-radius:2%;
+	
+
+
+}
+.lycee .right {
+	width:60%;
+	margin-left:40px;
+	margin-left:10px;
+}
+
+.parcoursup{
+	background-color:#222f3e;
+	color: #fff;
+	padding:30px;
+	display: flex;
+	flex-wrap:wrap;
+
+}
+
+.parcoursup .nord{
+
+	width:60%;
+	margin-right: 40px;
+	margin-right: 10px;
+
+
+}
+.parcoursup .sud img{
+	display:block;
+	border-radius:2%;
+	
+
+}
+
+.iutc{
+	background-color:#222f3e;
+	color: #fff;
+	padding:30px;
+	display: flex;
+	flex-wrap:wrap;
+
+}
+
+.iutc .batimentc img{
+
+	display:block;
+	border-radius:2%;
+	
+
+
+}
+.iutc .batimentf{
+	width:60%;
+	margin-left:40px;
+	margin-left:10px;
+}
+
+.parcoursbut{
+	background-color:#222f3e;
+	color: #fff;
+	padding:30px;
+	display: flex;
+	flex-wrap:wrap;
+
+}
+
+.parcoursbut .but1{
+
+	width:60%;
+	margin-right: 40px;
+	margin-right: 10px;
+
+
+}
+.parcoursbut .but2 img{
+	display:block;
+	border-radius:2%;
+
+}
+
+footer{
+	margin-top:30px;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: space-between;
+	color:#fff;
+	background-color: #2d2d2d;
+
+}
+footer h2{
+	font-size: 15px;
+	font-family:'Open sans', Arial, Helvetica, sans-serif;
+	margin: 20px 40px;
+
+}
+

@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Yanone+Kaffeesatz&display=swap');
+
+body {
+	margin: 0px 0px;
+	font-family:'Open sans', Arial, Helvetica, sans-serif;
+	
+}
+
+nav {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	position: sticky;
+	background-color: #2d2d2d;
+	top: 0;
+	opacity: 0.7;
+}
+nav h1{
+	font-size: 30px;
+	font-family:'Open sans', Arial, Helvetica, sans-serif;
+
+}
+nav .profile {
+	display: flex;
+	align-items: center;
+}
+nav .profile img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-left: 10px;
+}
+
+nav .profile h1 {
+	margin-left: 10px;
+	font-size: 15px;
+}
+
+nav ul {
+	list-style: none;
+	display:flex;
+
+
+}
+nav a {
+	margin-left: 10px;
+	cursor: pointer;
+	border-bottom: 1px solid #2d2d2d;
+	margin-right:2px;
+	color:gray;
+	top: 10px;
+	font-weight: bolder;
+
+
+}
+nav ul li:hover {
+	border-bottom-color: #000;
+}
+
+.articles{
+	margin-top: 30px;
+}
+
+.page-content{
+	margin-left:40px;
+}
+
+.articles .article{
+	display:flex;
+	flex-wrap:wrap;
+	margin-bottom:90px;
+}
+.articles .article .left img{
+	height:300px;
+	width:375px;
+	margin-left: 40px;
+	border-radius: 1%;
+
+}
+
+.articles .article .right{
+	max-width: 50%;
+	margin-left: 40px;
+	font-family:'Open sans', Arial, Helvetica, sans-serif;
+
+
+
+}
+.articles .article .right p.date{
+	color: gray;
+}
+
+
+.articles .article .right p.description{
+	color: #2d2d2d;
+}
+
+footer{
+	margin-top:30px;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: space-between;
+	color:#fff;
+	background-color: #2d2d2d;
+
+}
+footer h2{
+	font-size: 15px;
+	font-family:'Open sans', Arial, Helvetica, sans-serif;
+	margin: 20px 40px;
+}
+
